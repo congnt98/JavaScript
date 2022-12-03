@@ -1,0 +1,42 @@
+.Accordion {
+    background: #FFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.Accordion ul {
+    list-style: none;
+}
+
+.question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EEE;
+    padding: 20px;
+    cursor: pointer;
+    color: brown;
+}
+
+.question h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.answer {
+    font-size: 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer p {
+    padding: 20px;
+}
+
+.show .answer {
+    max-height: 150px;
+}
+
+.show i {
+    transform: rotate(180deg);
+}

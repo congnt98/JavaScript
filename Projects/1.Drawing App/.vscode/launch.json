@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "name": "http://.classList.remove(\"active\")",
+      "request": "launch",
+      "url": "http://.classList.remove(\"active\")"
+    }
+  ]
+}
